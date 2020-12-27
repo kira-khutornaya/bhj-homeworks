@@ -12,6 +12,9 @@ close.forEach(el => {
         modal.classList.remove("modal_active");
         modal_success.classList.remove("modal_active");
     }
-})
+});
 
-success.onclick = () => modal_success.classList.add("modal_active");
+success.onclick = () => {
+    modal_success.classList.add("modal_active");
+    modal.classList.remove("modal_active");
+}
