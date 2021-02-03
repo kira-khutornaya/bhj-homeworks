@@ -12,7 +12,7 @@ body {
 }
 .cart__product-count {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
   border: 2px solid green;
   border-radius: 50%;
@@ -26,6 +26,17 @@ body {
   height: 100px;
   object-fit: contain;
 }
+
+.cart__product-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  font-size: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .product {
   display: flex;
   flex-wrap: wrap;
